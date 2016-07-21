@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <base href="/">
+        <script src="require.js"></script>
+        <script>window.log=console.log.bind(console);</script>
+        <style>
+            b {
+                display: inline-block;
+                font-weight: bold;
+                padding: 5px;
+                background: rgba(255,0,0,0.3);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="container">
+            <div ui-view class="flexcol"></div>
+        </div>
+        
+        <script>
+            require( [ 'require', './js/config.require' ], function( require, config ) {
+                window.require.config( config );
+                require(['./js/main.js']);
+            });
+        </script>        
+    </body>
+</html>

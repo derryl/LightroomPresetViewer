@@ -1,0 +1,34 @@
+{
+  "name": "LightroomPresetEditor",
+  "authors": [
+    "derryl <derrylcarter@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "requirejs": "^2.2.0",
+    "requirejs-plugins": "^1.0.3",
+    "angular": "^1.5.6",
+    "angular-resource": "^1.5.6",
+    "ngstorage": "^0.3.10",
+    "underscore": "^1.8.3",
+    "angularLocalStorage": "ngStorage#^0.3.2",
+    "angular-ui-router": "^0.3.1",
+    "angular-filepicker": "^1.1.4",
+    "ng-prettyjson": "^0.2.0"
+  },
+  "resolutions": {
+    "angular": "1.5.6"
+  }
+}

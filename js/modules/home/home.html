@@ -1,0 +1,13 @@
+
+<input type="file" 
+        label="choose template" 
+        onchange="angular.element(this).scope().updateNewFile(this)"
+        ng-model="file" />
+
+<div ng-bind-html="safeBind( errText)"></div>
+        
+<pre id="contents" width="100vw" height="100vh"></pre>
+        
+<!-- <input filepicker type="filepicker-dragdrop"
+        data-fp-services="computer,facebook,dropbox,box" 
+        on-success="onSuccess(event.fpfile)" /> -->
